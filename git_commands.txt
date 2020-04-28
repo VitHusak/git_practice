@@ -22,7 +22,7 @@ git status //kontroluješ jestli ses addlej nebo commitlej
 git config --global user.email husakopla@gmail.com // vobcas to musis udelat
 git add . // přidá do staging nové souborey
 git commit -m 'you comment for other' // nekam to commitne
-git push //pushne to do githubu
+git push origin master //pushne to do githubu
 git remote show origin
 
 
