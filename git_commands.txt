@@ -1,0 +1,43 @@
+cmder
+---------------
+
+cd . / cd .. /cd name_of_file
+dir
+ls
+cat name_of_file //vykresli dokument do cmder
+code . //otevři tuto složku ve VSC
+touch //make a file
+mkdir //make a folder
+rm //delete file
+rm -rf //delete dir/folder
+pwd //kde sem
+whiami //kdo sem
+
+
+git
+----------------
+jak vytvořit repository!
+
+git status //kontroluješ jestli ses addlej nebo commitlej
+git config --global user.email husakopla@gmail.com // vobcas to musis udelat
+git add . // přidá do staging nové souborey
+git commit -m 'you comment for other' // nekam to commitne
+git push //pushne to do githubu
+git remote show origin
+
+
+1) první ho vytvořím na githubu nezapomenu zakliknout readme.txt
+
+git clone url // url dostanu na githubu
+
+
+2)máme složku kterou chceme dát naopak do githubu
+git init
+//máš tam nějaké souborey
+git add .
+git add ./* //přidá všechno
+git commit -m "comment"
+// v githubu vytvoř repository bez readme! najdi si coomand git remote add origin url a zkopíruj ji do cmder
+git remote show origin // it displaying remote repository
+git push origin master
+//refrash github - měl by se objevit nové repository
